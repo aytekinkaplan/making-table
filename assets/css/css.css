@@ -3,11 +3,25 @@
     
 }
 table{
+    width: 500px;
+    height: 400px;
     color: white;
+    font-size: 50px;
 }
 th{
     background-color:rgb(83, 83, 197);
+    color: white;
 }
-td:nth-of-type(2n){
+tr{
+    font-size: 30px;
+    font-weight: bolder;
+}
+tr:nth-of-type(2n){
     background-color: rgb(166, 166, 208);
+    color: black;
+    
+}
+tr:nth-of-type(2n+1){
+    background-color: rgb(102, 102, 230);
+    color: black;
 }
