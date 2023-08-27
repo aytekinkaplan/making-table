@@ -2,15 +2,23 @@
     box-sizing: border-box;
     
 }
+caption{
+    background-color: rgb(130, 130, 227);
+    text-align: left;
+}
 table{
-    width: 500px;
+    width: 1000px;
     height: 400px;
     color: white;
     font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 th{
     background-color:rgb(83, 83, 197);
     color: white;
+}
+.differentOne {
+    text-align: left;
 }
 tr{
     font-size: 30px;
